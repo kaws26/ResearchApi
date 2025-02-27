@@ -5,3 +5,4 @@ dotenv
 langchain-community
 langchain
 langchain-groq
+flask-cors
