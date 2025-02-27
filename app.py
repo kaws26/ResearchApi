@@ -2,11 +2,13 @@ from flask import Flask, request, jsonify
 import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
+from flask_cors import CORS  # Import Flask-CORS
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
