@@ -29,7 +29,7 @@ The **AI Research Paper History Analysis** tool is a Flask-based API that retrie
 ## 🏗️ Setup & Installation
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/AI-Research-History-Analysis.git
+git clone https://github.com/kaws26/ResearchApi.git
 cd AI-Research-History-Analysis
 ```
 ### 2️⃣ Install dependencies
